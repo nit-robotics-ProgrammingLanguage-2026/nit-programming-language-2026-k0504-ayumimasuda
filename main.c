@@ -7,7 +7,7 @@ int main(void)
 
     scanf("%d", &input_number);
 
-    /* 仕様: 0以上15未満の整数のうち、10と11を除いたものが OK */
+    /* 仕様: 0以上15未満の整数のうち、10と11を除いたものが OK */　
     is_ok = (input_number >= 0)
          && (input_number < 10 || input_number >= 12)
          && (input_number < 15);
